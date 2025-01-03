@@ -4,7 +4,7 @@ from api import router as api_router
 from core.config import settings
 from contextlib import asynccontextmanager
 from core.models.db_helper import db_helper
-from fastapi.response import ORJSONResponse
+from fastapi.responses import ORJSONResponse
 
 
 @asynccontextmanager
